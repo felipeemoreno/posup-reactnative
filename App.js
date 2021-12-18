@@ -11,7 +11,6 @@ import {
   Poppins_700Bold
 } from '@expo-google-fonts/poppins';
 
-import illustracaoHome from './assets/Illustracao_home.png';
 
 export default function App() {
 
@@ -32,36 +31,4 @@ export default function App() {
   }
 }
 
-const colors = StyleSheet.create({
-  bkgOrange: {
-    backgroundColor: '#FF4B3A',
-  },
-  textWhite: {
-    color: "#FFF"
-  }
-})
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  homeTitle: {
-    fontSize: 50,  
-    fontFamily: 'Poppins_700Bold',
-    lineHeight: 52
-  },
-  homeIllustracao: {
-    width: '100%',
-    height: '100%'
-  },
-  btnInicio: {
-    color: "#FF4B3A",
-    backgroundColor: "#FFF",
-    paddingHorizontal: 60,
-    paddingVertical: 20,
-    borderRadius: 100
-    
-  }
-});
+
