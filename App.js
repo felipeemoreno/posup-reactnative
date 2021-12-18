@@ -1,9 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import AppLoading from 'expo-app-loading';
 
 import HomePage from './Pages/HomePage';
+import ProductsPage from './Pages/ProductsPage';
+import ProductDetails from './Pages/ProductDetails';
 
 import {
   useFonts,
@@ -11,6 +14,7 @@ import {
   Poppins_700Bold
 } from '@expo-google-fonts/poppins';
 
+const Stack = createNativeStackNavigator();
 
 export default function App() {
 
@@ -23,10 +27,21 @@ export default function App() {
     return <AppLoading />;
   } else {
     return (
-      <>  
-        <HomePage />
+      <NavigationContainer>  
+        <Stack.Navigator 
+        screenOptions={{
+          headerShown: false
+        }}>
+          <Stack.Screen
+            name="Home"
+            component={HomePage}
+            options={{ title: 'Rango Express APP' }}
+          />
+          <Stack.Screen name="Products" component={ProductsPage} />
+          <Stack.Screen name="ProductDetails" component={ProductDetails} />
+        </Stack.Navigator>
         <StatusBar style="auto" />
-      </>
+      </NavigationContainer>
     );
   }
 }
