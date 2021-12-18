@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import AppLoading from 'expo-app-loading';
 
-import HomePage from './Pages/HomePage';
+import HomePage from './Pages/HomePage'
 import ProductsPage from './Pages/ProductsPage';
 import ProductDetails from './Pages/ProductDetails';
 
