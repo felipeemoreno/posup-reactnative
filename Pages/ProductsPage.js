@@ -21,6 +21,42 @@ const listaProdutos = [
     name: "Lasanha Quatro Queijos",
     price: 45.99,
     image: null
+  },
+  {
+    id: 4,
+    name: "Miojo com Queijo Ralado",
+    price: 15.99,
+    image: null
+  },
+  {
+    id: 5,
+    name: "Strogonoff de Camarão",
+    price: 55.99,
+    image: null
+  },
+  {
+    id: 6,
+    name: "Lasanha Quatro Queijos",
+    price: 45.99,
+    image: null
+  },
+  {
+    id: 7,
+    name: "Miojo com Queijo Ralado",
+    price: 15.99,
+    image: null
+  },
+  {
+    id: 8,
+    name: "Strogonoff de Camarão",
+    price: 55.99,
+    image: null
+  },
+  {
+    id: 9,
+    name: "Lasanha Quatro Queijos",
+    price: 45.99,
+    image: null
   }
 ]
 
@@ -51,7 +87,7 @@ const ProductsPage =  ({ navigation }) => {
       <View style={{flex: 1, justifyContent: "center", paddingTop: 10}}>
         <Text style={styles.homeTitle}>PRODUTOS</Text>
       </View>
-      <View style={{flex: 4, width: '100%', paddingHorizontal: 10}}>
+      <View style={{flex: 4, width: '100%', paddingHorizontal: 30}}>
         <VirtualizedList
           data={listaProdutos}
           // initialNumToRender={2} opcional qual item começa
@@ -71,7 +107,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F5F5F8',
   },
   homeTitle: {
     fontSize: 50,  
@@ -94,9 +130,10 @@ const styles = StyleSheet.create({
   item: {
     width: "100%",
     height: 80,
-    backgroundColor: "#FF4B3A22",
+    backgroundColor: "#FFFFFF",
     padding: 20,
-    marginBottom: 5
+    marginBottom: 10,
+    borderRadius: 15
   }
 });
 
