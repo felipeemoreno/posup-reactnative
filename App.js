@@ -4,9 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import AppLoading from 'expo-app-loading';
 
-import HomePage from './Pages/HomePage'
-import ProductsPage from './Pages/ProductsPage';
-import ProductDetails from './Pages/ProductDetails';
+import HomePage from './src/Pages/HomePage';
+import ProductsPage from './src/Pages/ProductsPage';
+import ProductDetails from './src/Pages/ProductDetails';
 
 import {
   useFonts,
@@ -31,7 +31,7 @@ export default function App() {
         <Stack.Navigator 
         screenOptions={{
           headerShown: false
-        }}>
+        }} >
           <Stack.Screen
             name="Home"
             component={HomePage}

@@ -38,10 +38,6 @@ const styles = StyleSheet.create({
     lineHeight: 54,
     color: "#FFF"
   },
-  homeIllustracao: {
-    width: '100%',
-    height: '100%'
-  },
   btnInicio: {
     color: "#FF4B3A",
     backgroundColor: "#FFF",

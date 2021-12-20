@@ -1,0 +1,67 @@
+{
+  "products" : [
+    {
+      "id": 1,
+      "name": "Miojo",
+      "description": "1 macarrão instantâneo\n1 ovo cozido e bem picado\n1/2 cebola ralada\n1/2 tomate ralado\nqueijo ralado\nextrato de tomate",
+      "price": 15.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/miojo.png"
+    },
+    {
+      "id": 2,
+      "name": "Strogonoff de Camarão",
+      "description": "500 gramas de camarão\ncreme de leite\nmolho de tomate\nsopa de mostarda\ncebola\nalhos picados\norégano\nSal e pimenta do reino",
+      "price": 55.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/strogonoff-camarao.png"
+    },
+    {
+      "id": 3,
+      "name": "Lasanha Quatro Queijos",
+      "description": "mussarela em fatias\nMOLHO:\nmanteiga\nleite\nqueijo gorgonzola\nqueijo provolone\nqueijo parmesão ralado\ncreme de leite",
+      "price": 45.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/lasanha-quatroqueijos.png"
+    },
+    {
+      "id": 4,
+      "name": "Arroz Natalino",
+      "description": "arroz\nbacon\nuvas passas pretas pequenas\nuvas passas brancas pequenas\ncastanha de caju\nmilho\npeito de frango desfiado\nAlho, cebola, sal, salsinha e cebolinha",
+      "price": 35.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/arroz-natalino.png"
+    },
+    {
+      "id": 5,
+      "name": "Lentilha com Linguiça",
+      "description": "lentilha\nlinguiça tipo toscana\ncebola picadinha\nalho\nsopa de azeite\nvinho\nágua\nSal",
+      "price": 45.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/lentilha-com-linguica.png"
+    },
+    {
+      "id": 6,
+      "name": "Lombo Suíno Assado na Cerveja",
+      "description": "cravos da índia\ncebola\nalho picado\ncerveja\nsuco de laranja\nlouro\nSal e pimenta do reino moída \nlombo suíno\nmanteiga",
+      "price": 45.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/lombo-suino.png"
+    },
+    {
+      "id": 7,
+      "name": "Coca-Cola",
+      "description": "Refrigerante 350ml",
+      "price": 5.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/coca-cola.png"
+    },
+    {
+      "id": 8,
+      "name": "Guaraná",
+      "description": "Refrigerante 350ml",
+      "price": 5.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/guarana.png"
+    },
+    {
+      "id": 9,
+      "name": "Água com Gás",
+      "description": "Água com Gás 500ml",
+      "price": 45.99,
+      "image": "https://wr5solutions.com.br/projefinalup/pratos/agua-gas.png"
+    }
+  ]
+}
